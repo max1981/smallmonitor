@@ -7,7 +7,7 @@ class SmallMonitor(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.get("http://0.0.0.0:2332/")
+        self.driver.get("http://127.0.0.1:2332/")
 
     def test_home_manager_page(self):
         self.assertIn("Small Monitor", self.driver.title)
