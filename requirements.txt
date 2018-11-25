@@ -1,0 +1,7 @@
+nose
+django==1.11.16
+django-ipware
+pymysql
+djangorestframework
+markdown
+django-filter
