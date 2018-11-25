@@ -6,7 +6,7 @@ import time
 class SmallMonitor(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.get("http://0.0.0.0:2332/")
 
     def test_home_manager_page(self):
